@@ -11,5 +11,5 @@
 
 
 <p align="center">
-  <img src="img/Logo_black.svg" width="150" />
+  <img src="./docs/preview.png" width="100%" />
 </p>
