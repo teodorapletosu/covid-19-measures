@@ -1,0 +1,16 @@
+[data-budget-allocation] strong {
+  border-radius: 5px;
+  padding: 3px;
+  display: inline-block;
+  min-width: 140px;
+  text-align: center;
+}
+[data-budget-allocation="unknown"] strong {
+  background: #efefef;
+}
+[data-budget-allocation="shared"] strong {
+  background: #e3cafd;
+}
+[data-budget-allocation="dedicated"] strong {
+  background: #ebdfe6;
+}

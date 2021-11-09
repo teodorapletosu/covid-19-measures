@@ -1,0 +1,140 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "MD Sans", sans-serif;
+  font-size: 12px;
+  color: #696969;
+}
+
+.AppContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  visibility: hidden;
+}
+.AppHeader {
+  height: 40px;
+}
+.AppContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex: 1;
+}
+.svgDiagram {
+  width: 100%;
+  height: 100%;
+}
+
+div.controls {
+  float: right;
+  margin-right: 128px;
+}
+
+label {
+  font-size: 14px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #dcdcdc;
+  stroke-dasharray: 2, 3;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-size: 10px;
+  fill: #6b6b6b;
+}
+
+.title {
+  font-size: 14px;
+  fill: #6b6b6b;
+}
+
+.legendText {
+  fill: #6b6b6b;
+}
+
+.shadow {
+  text-shadow: 2px 2px 2px #fff, -2px -2px 2px #fff, -2px 2px 2px #fff,
+    2px -2px 2px #fff, -2px 0px 2px #fff, 2px 0px 2px #fff;
+}
+
+circle {
+  fill-opacity: 0.55;
+}
+
+.CountryInfoTip {
+  min-width: 120px;
+}
+.CountryInfoTip table {
+  width: 100%;
+}
+.CountryInfoTip table thead {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.8em;
+}
+.CountryInfoTip tbody tr td {
+  padding: 2px;
+}
+/*.CountryInfoTip tbody tr td[data-source="value"] {
+  background: #eee;
+  color: #333;
+}*/
+
+.btn-group.scaleMode button.btn {
+  min-width: 120px;
+}
+
+.text.y.title.shadow {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 12px !important;
+}
+
+.CountryInfoTip {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 0px;
+  margin: 0px;
+  color: #000;
+  font-family: "DM Sans", sans-serif !important;
+}
+
+.btn {
+  background-color: #fff !important;
+  border: 1px solid #d6358f !important;
+  font-size: 14px !important;
+  font-family: "DM Sans", sans-serif !important;
+  color: #d6358f !important;
+  border-radius: 25px !important;
+  min-width: 45px;
+}
+#linID {
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+#logID {
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+.btn.active {
+  background-color: #d6358f !important;
+  border: 1px solid #d6358f !important;
+  color: #fff !important;
+}
+
+.btn:hover {
+  background-color: #d6358f !important;
+  border: 1px solid #d6358f !important;
+  color: #fff !important;
+}

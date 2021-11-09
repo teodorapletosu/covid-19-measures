@@ -1,0 +1,37 @@
+.AppContentPane[data-pane="diagram"] {
+  width: 100%;
+}
+.AppMap {
+  display: none;
+}
+.navbar .btn {
+  min-width: 50px;
+  margin-right: 10px !important;
+}
+button[data-mode] span {
+  display: none;
+}
+
+.AppHeader .form-group {
+  margin-bottom: 0;
+}
+.AppFooter {
+  min-height: 51px;
+}
+.AppFooter > .navbar,
+.AppFooter > nav > div > form,
+.AppFooter > nav > div > form,
+.AppFooter > nav > div > form > ul,
+.AppFooter > nav > div > form > ul > li,
+.AppFooter > nav > div > form > ul > li > div,
+.AppFooter > nav > div > form > ul > li > div.form-group,
+.AppFooter > nav > div > form > ul > li > div.form-group .select2-container {
+  width: 100% !important;
+}
+.AppFooter > nav > div > form > ul > li > div.form-group {
+  margin-bottom: 0;
+}
+
+.select2-selection.select2-selection--single {
+  width: calc(100vw - 30px);
+}

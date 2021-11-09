@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Overall budgets</title>
+    <link rel="icon" href="img/favicon.ico?v=1.2" />
+    <link
+      href="//fonts.googleapis.com/css2?family=DM+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/vendors/tooltipster.bundle.css" />
+    <link rel="stylesheet" href="css/vendors/tooltipster-follower.css" />
+    <link rel="stylesheet" href="css/block.css" />
+    <link rel="stylesheet" href="css/overall_budgets.css" />
+  </head>
+  <body>
+    <div class="AppContainer">
+      <div class="AppHeader">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="ml-auto mr-1"></div>
+          <div class="flex-grow-0">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <div
+                  class="btn-group scaleMode"
+                  role="group"
+                  aria-label="Graph mode"
+                >
+                  <button
+                    type="button"
+                    id="linID"
+                    class="btn btn-primary"
+                    data-scale-type="lin"
+                  >
+                    Linear view
+                  </button>
+                  <button
+                    type="button"
+                    id="logID"
+                    class="btn btn-primary"
+                    data-scale-type="log"
+                  >
+                    Cluster view
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="AppContent">
+        <div class="svgDiagram"></div>
+      </div>
+    </div>
+
+    <script src="//d3js.org/d3.v5.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.1/xlsx.full.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/accounting.js/0.4.1/accounting.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/svg.js/3.0.15/svg.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.70/jquery.blockUI.min.js"></script>
+
+    <script src="js/vendors/tooltipster.bundle.js"></script>
+    <script src="js/vendors/tooltipster-SVG.js"></script>
+    <script src="js/vendors/tooltipster.bundle.js"></script>
+    <script src="js/vendors/tooltipster-SVG.js"></script>
+    <script src="js/vendors/tooltipster-follower.js"></script>
+    <script src="js/vendors/clustering.js"></script>
+
+    <script src="js/block.js"></script>
+    <script src="js/dataset.js"></script>
+    <script src="js/overall_budgets.js"></script>
+  </body>
+</html>

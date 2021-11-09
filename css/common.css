@@ -1,0 +1,257 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.AppContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+}
+.App {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.AppHeader {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  background: #ebeaea;
+  padding: 4px;
+}
+.AppHeader > .navbar {
+  width: 100%;
+  height: 100%;
+}
+.AppContent {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+.AppContentPane {
+  position: relative;
+  border: 1px solid #ebeaea;
+  border-top: none;
+  width: 50%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.AppContentPane ul.nav.nav-tabs {
+  border-bottom: 1px solid #efb2d4 !important;
+  padding: 5px;
+  padding-bottom: 0;
+}
+
+.AppContentPane ul.nav.nav-tabs li button {
+  color: #a1a1c5 !important;
+  background-color: #ebeaea;
+  border-radius: 25px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  font-size: 12px;
+  border-bottom: none;
+}
+.AppContentPane ul.nav.nav-tabs li button.active {
+  color: #d6358f !important;
+  border: 1px solid #efb2d4;
+  background-color: #fff !important;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 1px solid #fff !important;
+}
+
+.AppDiagram {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.AppMap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #d5dadc;
+}
+.AppMapCountryLayerInfo {
+  width: 100%;
+  font-family: "DM Sans", sans-serif !important;
+}
+.AppMapCountryLayerInfo h1 {
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif !important;
+  font-weight: bold;
+  line-height: normal;
+  text-align: center;
+}
+.AppMapCountryLayerInfo .alert {
+  padding: 12px;
+  margin: 0;
+  text-align: center;
+  background-color: #c5d4ea !important;
+  border: none;
+  border-radius: 10px;
+  color: #000572 !important;
+  font-family: "DM Sans", sans-serif !important;
+}
+.AppMapCountryLayerInfo .alert p {
+  margin: 0;
+  margin-top: 12px;
+}
+.AppMapCountryLayerInfoDetails {
+  max-height: 240px;
+  overflow: auto;
+  border: 1px solid #f9e6f1;
+  border-radius: 10px;
+  font-family: "DM Sans", sans-serif !important;
+}
+.AppMapCountryLayerInfoDetails table td {
+  border: none;
+}
+
+.columnTitle {
+  font-weight: bold !important;
+  min-width: 120px;
+  background: #f9e6f1;
+}
+
+.columnValue p {
+  margin: 0;
+  padding: 0;
+}
+
+.itemSeparator {
+  margin: 0;
+  padding: 0;
+}
+.itemSeparator td {
+  margin: 0;
+  padding: 0;
+  line-height: 1px;
+  background-color: #f4c5e1;
+}
+
+.d3-tip {
+  z-index: 2000;
+}
+svg .sk-link {
+  stroke: #6e71b3 !important;
+  cursor: pointer;
+}
+
+.input-group-prepend > label {
+  margin: 0;
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+[data-form-scope="filters"] {
+  width: 100%;
+}
+[data-form-field="filter"] {
+  width: 100%;
+  padding: 5px;
+}
+
+[data-form-field] .form-group > label {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+[data-form-field="mode"] .form-group > label {
+  margin-left: 0px;
+}
+.gutter.gutter-horizontal {
+  cursor: col-resize;
+  background-color: #ccc;
+}
+
+.sk-node rect {
+  stroke: none !important;
+}
+.sk-node text,
+.d3-tip {
+  font-family: "DM Sans" !important;
+  border-radius: 10px !important;
+}
+
+.sk-node text {
+  font-size: 12px !important;
+}
+
+.sk-svg {
+  background-color: #ebeaea !important;
+}
+
+.gutter.gutter-horizontal {
+  background-color: #ebeaea !important;
+}
+
+.form-group {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 14px !important;
+}
+
+.select2-selection.select2-selection--single {
+  border-radius: 25px;
+}
+
+.select2-results {
+  font-family: "DM Sans", sans-serif !important;
+}
+
+.select2-dropdown {
+  border-radius: 10px !important;
+}
+
+.loadingindicator {
+  background-color: #000 !important;
+}
+
+.AppHeader > .navbar,
+.AppHeader > nav > div > form,
+.AppHeader > nav > div > form,
+.AppHeader > nav > div > form > ul,
+.AppHeader > nav > div > form > ul > li,
+.AppHeader > nav > div > form > ul > li > div {
+  width: 100% !important;
+}
+@media (max-width: 1045px) {
+  .btn-group .btn span {
+    display: none;
+  }
+}
+@media (max-width: 970px) {
+  .btn-group .btn span {
+    display: none;
+  }
+  li.dropdown .form-group label {
+    display: none;
+  }
+  .form-group {
+    margin-bottom: 0 !important;
+    margin: auto !important;
+  }
+}
+@media (min-width: 576px) {
+  .form-inline .form-group {
+    flex-flow: row !important;
+  }
+}

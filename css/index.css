@@ -1,0 +1,75 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.AppContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.App {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.AppHeader {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  background: #ebeaea;
+  padding: 4px;
+  font-family: "DM Sans" !important;
+}
+.AppHeader > nav {
+  width: 100%;
+  height: 100%;
+}
+.AppHeader > nav .navbar-nav li a {
+  color: #8d8db9 !important;
+  margin-right: 20px;
+}
+.AppHeader > nav .navbar-nav li a:first-child {
+  margin-left: 20px;
+}
+.AppHeader > nav .navbar-nav li a:last-child {
+  margin-right: 0;
+}
+.AppHeader > nav .navbar-nav li a:hover {
+  color: #000077 !important;
+}
+.AppHeader > nav .navbar-nav li.active a {
+  color: #000077 !important;
+}
+.AppHeader > nav .navbar-nav li.active a span {
+  border-bottom: 2px solid #ec1091;
+  padding-bottom: 3px;
+}
+.AppHeader > nav .nav-item {
+  display: flex;
+  vertical-align: middle;
+}
+.AppHeader > nav a.navbar-brand {
+  padding-top: 0;
+}
+
+#copyID {
+  font-size: 10px !important;
+}
+
+.AppContent {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
