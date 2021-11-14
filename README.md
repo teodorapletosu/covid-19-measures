@@ -16,6 +16,10 @@
 * D3 library (Sankey Diagram)
 * Leaflet mapping
 
+<p>The Sankey diagram represents the flow of the categorized support measures into the cultural sectors.</p>
+<p>The map shows the European countries in which a specific flow (a specific measure for a specific sector) was implemented.
+Clicking on a country reveals the details of the flow.</p>
+
 <br>
 
 
